@@ -1,0 +1,43 @@
+{
+  "name": "js-gravatar",
+  "version": "1.0.0",
+  "description": "A JS lirary to get a users gravatar and if it doesn't exist provides custom avatar",
+  "main": "dist/js-gravatar.js",
+  "scripts": {
+    "test": "node_modules/.bin/jest",
+    "dev": "node_modules/.bin/webpack -p --watch",
+    "build": "node_modules/.bin/webpack -p"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chukwumaijem/js-gravatar.git"
+  },
+  "keywords": [
+    "gravatar",
+    "avatar",
+    "javascript",
+    "angular-avatar",
+    "angular-gravatar",
+    "react-gravatar",
+    "react-avatar",
+    "vue-gravatar",
+    "vue-avatar"
+  ],
+  "author": "Chukwuma Ezumezu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chukwumaijem/js-gravatar/issues"
+  },
+  "homepage": "https://github.com/chukwumaijem/js-gravatar#readme",
+  "jest": {
+    "verbose": true
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.7",
+    "@babel/preset-env": "^7.8.7",
+    "babel-loader": "^8.0.6",
+    "jest": "^25.1.0",
+    "webpack": "^4.42.0",
+    "webpack-cli": "^3.3.11"
+  }
+}
