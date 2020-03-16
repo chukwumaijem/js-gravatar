@@ -1,6 +1,6 @@
 {
   "name": "js-gravatar",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A JS lirary to get a users gravatar and if it doesn't exist provides custom avatar",
   "main": "dist/js-gravatar.js",
   "scripts": {
