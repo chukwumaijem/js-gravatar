@@ -1,7 +1,7 @@
 {
   "name": "js-gravatar",
   "version": "1.0.1",
-  "description": "A JS lirary to get a users gravatar and if it doesn't exist provides custom avatar",
+  "description": "A JS library to get a user's gravatar and if it doesn't exist provides one different from gravatar default",
   "main": "dist/js-gravatar.js",
   "scripts": {
     "test": "node_modules/.bin/jest",
