@@ -1,6 +1,6 @@
 {
   "name": "js-gravatar",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A vanilla JS library to get a user's gravatar and if it doesn't exist provides one different from gravatar default",
   "main": "dist/js-gravatar.js",
   "scripts": {
