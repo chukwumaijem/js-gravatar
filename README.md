@@ -2,7 +2,7 @@
 
 [![npm package](https://img.shields.io/npm/v/js-gravatar.svg?style=flat-square)](https://www.npmjs.org/package/js-gravatar) ![](https://github.com/chukwumaijem/js-gravatar/workflows/Run%20Test/badge.svg) ![](https://github.com/chukwumaijem/js-gravatar/workflows/Publish%20To%20NPM/badge.svg)
 
-[Demo](https://codepen.io/chukwuma-ezumezu/pen/qYKOGW)
+[Demo](https://codepen.io/chukwumaijem/pen/KKdXYbr)
 
 ## Vanilla JS
 
@@ -13,7 +13,7 @@ Load it into your HTML script
 <script type="text/javascript" src="path/to/js-gravatar.js"></script>
 ```
 
-You can use the [UNPKG](https://unpkg.com) link `https://unpkg.com/js-gravatar@1.0.1/dist/js-gravatar.js`. Remember to update the package number to the most recent.
+You can use the [UNPKG](https://unpkg.com) link `https://unpkg.com/js-gravatar@1.1.2/dist/js-gravatar.js`. Remember to update the package number to the most recent.
 
 Call the method with its options.
 
@@ -25,13 +25,13 @@ JsGravatar({ element, numberOfDice: 2, callback });
 
 Install with npm.
 
-```sh
+```zsh
 npm install --save js-gravatar
 ```
 
 Install with yarn.
 
-```sh
+```zsh
 yarn add js-gravatar
 ```
 
