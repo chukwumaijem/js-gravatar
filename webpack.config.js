@@ -1,7 +1,7 @@
 const path = require('path');
 
 const BUILD_DIR = path.resolve(__dirname, 'dist/');
-const APP_DIR = path.resolve(__dirname, 'js/');
+const APP_DIR = path.resolve(__dirname, 'lib/');
 
 const config = {
   entry: APP_DIR + '/js-gravatar.js',
@@ -9,7 +9,7 @@ const config = {
     path: BUILD_DIR,
     filename: 'js-gravatar.js',
     publicPath: 'dist/',
-    library: 'js-gravatar',
+    library: 'jsGravatar',
     libraryExport: 'default',
     libraryTarget: 'umd',
   },

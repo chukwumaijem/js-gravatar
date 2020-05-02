@@ -1,7 +1,7 @@
 {
   "name": "js-gravatar",
   "version": "1.0.1",
-  "description": "A JS lirary to get a users gravatar and if it doesn't exist provides custom avatar",
+  "description": "A vanilla JS library to get a user's gravatar and if it doesn't exist provides one different from gravatar default",
   "main": "dist/js-gravatar.js",
   "scripts": {
     "test": "node_modules/.bin/jest",
@@ -36,8 +36,11 @@
     "@babel/core": "^7.8.7",
     "@babel/preset-env": "^7.8.7",
     "babel-loader": "^8.0.6",
-    "jest": "^25.1.0",
+    "jest": "^25.5.4",
     "webpack": "^4.42.0",
     "webpack-cli": "^3.3.11"
+  },
+  "dependencies": {
+    "md5": "^2.2.1"
   }
 }
