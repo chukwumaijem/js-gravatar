@@ -8,9 +8,16 @@
 </head>
 
 <body>
-  <div></div>
+  <div>
+    <img id="image" />
+  </div>
 
-  <script src="dist/js-gravatar.js"></script>
+  <script src="../dist/js-gravatar.js"></script>
+  <script>
+    const imageSrc = jsGravatar({ email: 'user@email.com', defaultImage: 'identicon' });
+    const image = document.getElementById('image');
+    image.src = imageSrc;
+  </script>
 </body>
 
 </html>

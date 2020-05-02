@@ -9,7 +9,7 @@ const config = {
     path: BUILD_DIR,
     filename: 'js-gravatar.js',
     publicPath: 'dist/',
-    library: 'js-gravatar',
+    library: 'jsGravatar',
     libraryExport: 'default',
     libraryTarget: 'umd',
   },
