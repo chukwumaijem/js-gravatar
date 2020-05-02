@@ -13,7 +13,7 @@ Load it into your HTML script
 <script type="text/javascript" src="path/to/js-gravatar.js"></script>
 ```
 
-You can use the [UNPKG](https://unpkg.com) link `https://unpkg.com/js-gravatar@1.0.1/dist/js-gravatar.js`. Remember to update the package number to the most recent.
+You can use the [UNPKG](https://unpkg.com) link `https://unpkg.com/js-gravatar@1.1.2/dist/js-gravatar.js`. Remember to update the package number to the most recent.
 
 Call the method with its options.
 
@@ -25,13 +25,13 @@ JsGravatar({ element, numberOfDice: 2, callback });
 
 Install with npm.
 
-```sh
+```zsh
 npm install --save js-gravatar
 ```
 
 Install with yarn.
 
-```sh
+```zsh
 yarn add js-gravatar
 ```
 
