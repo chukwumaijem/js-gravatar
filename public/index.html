@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JS Gravatar - Demo</title>
+</head>
+
+<body>
+  <div>
+    <img id="image" />
+  </div>
+
+  <script src="../dist/js-gravatar.js"></script>
+  <script>
+    const imageSrc = jsGravatar({ email: 'user@email.com', defaultImage: 'identicon' });
+    const image = document.getElementById('image');
+    image.src = imageSrc;
+  </script>
+</body>
+
+</html>
