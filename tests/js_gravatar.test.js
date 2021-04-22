@@ -36,4 +36,22 @@ describe('JS Gravatar', function () {
       expect(buildQueryStringFromOptions({})).toBe('');
     });
   });
+
+  describe('Correctly generates urls with or without protocol specified', function() {
+    const email = 'test@test.com';
+    const size = 200;
+    const defaultImage = '404';
+
+    it('when no protocol is supplied.', function () {
+      expect(jsGravatar({ email, size, defaultImage })).toBe(`http://www.gravatar.com/avatar/b642b4217b34b1e8d3bd915fc65c4452?s=${size}&d=${defaultImage}`);
+    });
+
+    it('when "https:" protocol is supplied.', function () {
+      expect(jsGravatar({ email, size, defaultImage, protocol: 'https:' })).toBe(`https://www.gravatar.com/avatar/b642b4217b34b1e8d3bd915fc65c4452?s=${size}&d=${defaultImage}`);
+    });
+
+    it('when "purple:" protocol is supplied.', function () {
+      expect(jsGravatar({ email, size, defaultImage, protocol: 'purple:' })).toBe(`http://www.gravatar.com/avatar/b642b4217b34b1e8d3bd915fc65c4452?s=${size}&d=${defaultImage}`);
+    });
+  });
 });
